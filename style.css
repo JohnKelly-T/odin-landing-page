@@ -55,7 +55,7 @@ a {
 
 .hero-image-section {
     width: 300px;
-    height: 300px;
+    height: 200px;
     background-color: gray;
 }
 
@@ -79,5 +79,15 @@ a {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+#hero-signup-button {
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
 }
 
