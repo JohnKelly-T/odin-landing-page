@@ -79,7 +79,8 @@ a {
 .hero-text-section {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    justify-content: center;
+    gap: 24px;
 }
 
 #hero-signup-button {
@@ -90,6 +91,11 @@ a {
     border-radius: 5px;
     padding: 10px;
     width: 100px;
+}
+
+.hero-image {
+    width: 250px;
+    height: 400px;
 }
 
 /* info section */
