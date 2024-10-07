@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -178,4 +179,57 @@ h2 {
 .quote-container p:nth-child(3) {
     margin-top: 12px;
     text-align: right;
+}
+
+/* call to action section */
+.cta-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 100px 0;
+    padding: 50px 75px;;
+    width: 70vw;
+    border-radius: 5px;
+    gap: 64px;
+}
+
+.cta-text {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    flex: 3;
+    color: white;
+}
+
+.cta-main-text {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-secondary-text {
+    margin: 0;
+}
+
+.cta-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#cta-signup-button {
+    border: 2px solid white;
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
 }
