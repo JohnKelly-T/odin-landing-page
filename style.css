@@ -115,7 +115,7 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px;
-
+    width: 75vw;
 }
 
 .image-and-description {
