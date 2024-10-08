@@ -20,7 +20,7 @@ a {
 
 /* header and hero section */
 
-.header-and-hero {
+#header-and-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,7 +108,7 @@ h2 {
     font-weight: 900;
 }
 
-.info-section {
+#info-section {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -142,7 +142,7 @@ h2 {
     background-color: white;
 }
 
-.quote-section {
+#quote-section {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -183,7 +183,7 @@ h2 {
 }
 
 /* call to action section */
-.cta-section {
+#cta-section {
     background-color: white;
     display: flex;
     justify-content: center;
