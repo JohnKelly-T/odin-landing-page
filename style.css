@@ -32,7 +32,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1F2837;
+    background-image: linear-gradient(to left top, #2e0348, #450664, #5d0a81, #770e9f, #9310be, #9710c6, #9b0fce, #9f0fd6, #8c0ec8, #790dba, #670bac, #55089e);
     margin: 0;
 }
 
@@ -65,25 +65,35 @@ button {
     color: #E5E7EB;
 }
 
-.hero-image-section {
-    width: 300px;
-    background-color: gray;
-}
-
 .hero {
     width: 75vw;
     display: flex;
+    align-items: center;
     gap: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.hero h1, .hero p {
-    margin: 0;
-}
-
 .hero-text-section, .hero-image-section {
     flex: 1;
+}
+
+.hero-image-section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    flex: 1 1 100px;
+    box-shadow: rgba(59, 0, 62, 0.579) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.hero h1, .hero p {
+    margin: 0;
 }
 
 .hero-text-section {
@@ -97,15 +107,27 @@ button {
     border: none;
     color: #F9FAF8;
     font-weight: bold;
-    background-color: #3882F6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #ff00d9;
     border-radius: 5px;
     padding: 10px;
     width: 100px;
 }
 
-.hero-image {
-    width: 250px;
-    height: 400px;
+@media only screen and (max-width: 900px) {
+    .hero {
+        width: 75vw;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hero-image-section {
+        width: 60vw;
+    }
 }
 
 /* info section */
