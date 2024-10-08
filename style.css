@@ -22,6 +22,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* header and hero section */
 
 #header-and-hero {
