@@ -134,7 +134,7 @@ button {
 
 h2 {
     font-size: 36px;
-    color: #1F2937;
+    color: #40234d;
     font-weight: 900;
 }
 
@@ -152,7 +152,8 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
+    row-gap: 50px;
+    column-gap: 100px;
     width: 75vw;
 }
 
@@ -164,9 +165,19 @@ h2 {
     width: 200px;
 }
 
+.info-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+    background: rgb(139,30,255);
+    background: linear-gradient(312deg, rgba(139,30,255,1) 12%, rgba(255,94,254,1) 77%);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
 .info-image {
     border-radius: 10px;
-    border: 2px solid #3882F6;
     width: 200px;
     height: 200px;
     background-color: white;
