@@ -196,7 +196,8 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 100px 0;
+    padding: 100px 0 10px 0;
+    gap: 100px;
 }
 
 .quote-container {
@@ -219,6 +220,16 @@ h2 {
     font-size: 24px;
     margin: 0;
     margin-top: 25px;
+}
+
+.quote-image-credit {
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.quote-image-credit a{
+    color: rgb(232, 105, 232);
 }
 
 .quotation-mark {
